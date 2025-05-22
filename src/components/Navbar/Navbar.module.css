@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.subcontainer {
+  display: flex;
+  gap: 20px;
+}
