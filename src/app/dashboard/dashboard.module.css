@@ -1,0 +1,59 @@
+.container {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+}
+.leftcontainer {
+  height: 100%;
+  flex: 1;
+  padding: 35px;
+}
+.rightcontainer {
+  height: 100%;
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.leftcontainer1 {
+  height: 100%;
+  width: 100%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+   */
+  display: grid;
+  place-items: center;
+  /* position: relative;
+  border: 1px solid rgba(223, 34, 213, 0.178);
+  height: 100%;
+  gap: 30px; 
+   left:0 ; 
+   display: flex;
+  align-items: center; 
+  margin-top: 100px;
+  
+  align-items: center;  */
+}
+.box {
+  /* width: 100px;
+  height: 50%; */
+  /* display: flex; /* x axis
+  align-items: center; 
+   justify-content: center; 
+   position: absolute;
+  height: 40px;
+  width: 90px;
+  border: 2px solid rgb(222, 12, 12);
+  margin: auto;
+  left: 0; 
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap; */
+  border: 1px solid rgb(244, 241, 237);
+  border-radius: 5px;
+  padding: 20px;
+}
