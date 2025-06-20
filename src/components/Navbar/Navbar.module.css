@@ -1,9 +1,26 @@
 .container {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  align-items: center;
+  padding: 40px 60px;
+  font-size: 1.3rem;
+  font-family: 'Times New Roman', Times, serif;
 }
 .subcontainer {
   display: flex;
+  align-items: center;
   gap: 20px;
+}
+.btn{
+   padding: 8px 25px;
+  border-radius: 5px;
+  border: 2px solid grey;
+  outline: none;
+  cursor: pointer;
+  font-size: inherit;
+ 
+}
+.btn:hover{
+  color: rgb(235, 230, 230);
+  background-color: rgb(18, 18, 18);
 }

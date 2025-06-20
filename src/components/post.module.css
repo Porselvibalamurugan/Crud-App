@@ -1,0 +1,87 @@
+.btns {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.btn,
+.btn1,
+.btn2 {
+  /* margin-left: 10px; */
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid grey;
+  outline: none;
+  cursor: pointer;
+}
+.btn:hover,
+.btn1:hover,
+.btn2:hover {
+  color: rgb(235, 230, 230);
+  background-color: rgb(18, 18, 18);
+}
+.txt {
+  display: flex;
+  /* flex-direction: column; */
+  flex: 1;
+  /* align-items: center; */
+  gap: 10px;
+}
+.txt > div {
+  flex: 1;
+}
+.txt > span {
+  flex: 1;
+}
+.container {
+  display: flex;
+  width: 100%;
+  /* padding: 10px; */
+  margin-bottom: 10px;
+  gap: 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .txt {
+    /* display: flex; */
+    align-items: center;
+  }
+  .btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn2 {
+    padding: 10px 12px;
+  }
+}
+@media (max-width: 480px) {
+  .txt {
+    display: flex;
+    align-items: start;
+    width: 100%;
+  }
+  .btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+  }
+  .btn1 {
+    margin-left: 0px;
+  }
+  .btn2 {
+    margin-left: 0px;
+    margin-top: 5px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .btn {
+    margin-top: 5px;
+  }
+}

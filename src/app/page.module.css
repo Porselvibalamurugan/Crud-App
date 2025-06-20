@@ -1,0 +1,31 @@
+.container {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid grey;
+  outline: none;
+  cursor: pointer;
+}
+.btn:hover {
+  font-weight: bold;
+  color: rgb(235, 230, 230);
+  background-color: rgb(18, 18, 18);
+}
+
+.subcontainer > h1 {
+  text-align: center;
+  line-height: 40px;
+}

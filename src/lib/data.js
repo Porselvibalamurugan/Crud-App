@@ -4,6 +4,7 @@
 import { revalidatePath } from "next/cache";
 import { Post } from "./models";
 import { ConnectToDb } from "./utils";
+import { log } from "console";
 export const getPosts = async () => {
   try {
     await ConnectToDb();
@@ -37,7 +38,6 @@ export async function CreatePost(formData) {
   } catch (error) {
     console.log("can't add post", error);
   }
-  // return
 }
 
 export async function DeletePost(formData) {
@@ -50,9 +50,7 @@ export async function DeletePost(formData) {
   }
 }
 /* form data contains the data of the input fields in the form*/
-export async function UpdatePost(formData) {
-  const { title, desc } = Object.fromEntries(formData);
-  // console.log(title,desc);
+export async function UpdatePost(title,desc) {
   try {
     await Post.updateOne({ title }, { $set: { desc } });
     console.log("Updated successfully");
