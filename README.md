@@ -8,7 +8,7 @@ A simple **CRUD (Create, Read, Update, Delete) Application** built using **Next.
 - 📖 Read and display data  
 - ✏️ Update existing records  
 - ❌ Delete records  
-- ⚡ Fast and responsive user interface  
+
 
 ## 🛠️ Technologies Used
 
