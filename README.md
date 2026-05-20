@@ -18,4 +18,4 @@ A simple **CRUD (Create, Read, Update, Delete) Application** built using **Next.
 
 ## 🎯 Purpose
 
-This project was developed to **learn and practice CRUD operations using Next.js**, including routing, state management, API handling, and database interaction.
+This project was developed to **learn and practice CRUD operations using Next.js**.
